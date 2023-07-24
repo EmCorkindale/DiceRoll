@@ -1,0 +1,19 @@
+img{
+    transition: transform 2s;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: 100px;
+}
+img:hover{
+    transform: rotate(360deg);
+}
+body{
+    background-color: black;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    text-align: center;
+}
